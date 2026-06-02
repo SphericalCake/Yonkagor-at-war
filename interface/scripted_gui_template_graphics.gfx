@@ -1,0 +1,43 @@
+spriteTypes = {
+
+	spriteType = {
+		name = "GFX_scripted_gui_window_background"
+		textureFile = "/gfx/interface/scripted_gui_graphics/scripted_gui_background.dds"
+	}
+	spriteType = {
+		name = "GFX_scripted_gui_exit_button"
+		textureFile = "/gfx/interface/scripted_gui_graphics/close_button.dds"
+	}
+	spriteType = {
+		name = "GFX_scripted_gui_interface_button"
+		textureFile = "/gfx/interface/scripted_gui_graphics/interface_button.dds"
+	}
+	spriteType = {
+		name = "GFX_scripted_gui_country_button"
+		textureFile = "/gfx/interface/scripted_gui_graphics/country_button.dds"
+	}
+	spriteType = {
+		name = "GFX_scripted_gui_must_read_button"
+		textureFile = "/gfx/interface/scripted_gui_graphics/must_read_button.dds"
+	}
+	spriteType = {
+		name = "GFX_scripted_gui_credits_button"
+		textureFile = "/gfx/interface/scripted_gui_graphics/credits_button.dds"
+	}
+	spriteType = {
+		name = "GFX_scripted_gui_country_background"
+		textureFile = "/gfx/interface/scripted_gui_graphics/scripted_gui_country_background.dds"
+	}
+	spriteType = {
+		name = "GFX_scripted_gui_must_read_background"
+		textureFile = "/gfx/interface/scripted_gui_graphics/scripted_gui_must_read_background.dds"
+	}
+   spriteType = {
+		name = "GFX_scripted_gui_credits_background"
+		textureFile = "/gfx/interface/scripted_gui_graphics/scripted_gui_credits_background.dds"
+	}
+	spriteType = {
+		name = "GFX_scripted_gui_open_gui"
+		textureFile = "/gfx/interface/scripted_gui_graphics/scripted_gui_open_gui.dds"
+	}
+}

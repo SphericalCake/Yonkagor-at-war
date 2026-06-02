@@ -1,0 +1,345 @@
+guiTypes = {
+    containerWindowType = {
+        name = "my_custom_gui"
+        position = { x = 0 y = 0 }
+        size = { width = 800 height = 600 }
+        orientation = CENTER
+        origo = CENTER
+        moveable = yes
+        fade_type = accelerated
+        clipping = yes
+        fade_time = 10000
+
+
+        background = {
+            name = "bg"
+            spriteType = "GFX_scripted_gui_window_background"
+        }
+
+        containerWindowType = {
+            name = "container"
+            position = { x = 115 y = 100 }
+            size = { width = 420 height = 160 }
+        }
+
+        buttonType = {
+            name = "interface"
+            position = { x = 7 y = 378 }
+            spriteType = "GFX_scripted_gui_interface_button"
+            clicksound = click_default
+        }
+
+        buttonType = {
+            name = "country"
+            position = { x = 127 y = 378 }
+            spriteType = "GFX_scripted_gui_country_button"
+            clicksound = click_default
+        }
+
+        buttonType = {
+           name = "must_read"
+           position = { x = 247 y = 378 }
+           spriteType = "GFX_scripted_gui_must_read_button"
+           clicksound = click_default
+        }
+
+        buttonType = {
+            name = "credit"
+            position = { x = 367 y = 378 }
+            spriteType = "GFX_scripted_gui_credits_button"
+            clicksound = click_default
+        }
+
+
+
+        buttonType = {
+            name = "exit"
+            position = { x = 0 y = 0 }
+            spriteType = "GFX_scripted_gui_exit_button"
+            clicksound = click_default
+        }
+
+        instantTextBoxType = {
+            name = "information"
+            position = { x = 275 y = 50 }
+            text = "information"
+            font = "hoi_72"
+            maxWidth = 200
+            maxHeight = 0
+            format = CENTER
+        }
+
+        instantTextBoxType = {
+            name = "version"
+            position = { x = 125 y = 130 }
+            text = "version"
+            font = "hoi_24b"
+            maxWidth = 500
+            maxHeight = 0
+            format = CENTER
+        }
+
+    }
+
+    containerWindowType = {
+        name = "country_gui"
+        position = { x = 0 y = 0 }
+        size = { width = 800 height = 600 }
+        orientation = CENTER
+        origo = CENTER
+        moveable = yes
+        fade_type = accelerated
+        clipping = yes
+        fade_time = 10000
+
+
+        background = {
+            name = "background"
+            spriteType = "GFX_scripted_gui_country_background"
+        }
+
+        containerWindowType = {
+            name = "container_2"
+            position = { x = 115 y = 100 }
+            size = { width = 420 height = 160 }
+        }
+
+        buttonType = {
+            name = "interface_2"
+            position = { x = 7 y = 378 }
+            spriteType = "GFX_scripted_gui_interface_button"
+            clicksound = click_default
+        }
+
+        buttonType = {
+            name = "country_2"
+            position = { x = 127 y = 378 }
+            spriteType = "GFX_scripted_gui_country_button"
+            clicksound = click_default
+        }
+
+        buttonType = {
+           name = "must_read_2"
+           position = { x = 247 y = 378 }
+           spriteType = "GFX_scripted_gui_must_read_button"
+           clicksound = click_default
+        }
+
+        buttonType = {
+            name = "credit_2"
+            position = { x = 367 y = 378 }
+            spriteType = "GFX_scripted_gui_credits_button"
+            clicksound = click_default
+        }
+
+
+
+        buttonType = {
+            name = "exit_2"
+            position = { x = 0 y = 0 }
+            spriteType = "GFX_scripted_gui_exit_button"
+            clicksound = click_default
+        }
+
+        instantTextBoxType = {
+            name = "information_2"
+            position = { x = 275 y = 50 }
+            text = "information_2"
+            font = "hoi_72"
+            maxWidth = 200
+            maxHeight = 0
+            format = CENTER
+        }
+    }
+
+    containerWindowType = {
+        name = "mustread_gui"
+        position = { x = 0 y = 0 }
+        size = { width = 800 height = 600 }
+        orientation = CENTER
+        origo = CENTER
+        moveable = yes
+        fade_type = accelerated
+        clipping = yes
+        fade_time = 10000
+
+
+        background = {
+            name = "background"
+            spriteType = "GFX_scripted_gui_must_read_background"
+        }
+
+        containerWindowType = {
+            name = "container_3"
+            position = { x = 115 y = 100 }
+            size = { width = 420 height = 160 }
+        }
+
+        buttonType = {
+            name = "interface_3"
+            position = { x = 7 y = 378 }
+            spriteType = "GFX_scripted_gui_interface_button"
+            clicksound = click_default
+        }
+
+        buttonType = {
+            name = "country_3"
+            position = { x = 127 y = 378 }
+            spriteType = "GFX_scripted_gui_country_button"
+            clicksound = click_default
+        }
+
+        buttonType = {
+           name = "must_read_3"
+           position = { x = 247 y = 378 }
+           spriteType = "GFX_scripted_gui_must_read_button"
+           clicksound = click_default
+        }
+
+        buttonType = {
+            name = "credit_3"
+            position = { x = 367 y = 378 }
+            spriteType = "GFX_scripted_gui_credits_button"
+            clicksound = click_default
+        }
+
+
+
+        buttonType = {
+            name = "exit_3"
+            position = { x = 0 y = 0 }
+            spriteType = "GFX_scripted_gui_exit_button"
+            clicksound = click_default
+        }
+
+        instantTextBoxType = {
+            name = "information_3"
+            position = { x = 125 y = 30 }
+            text = "information_3"
+            font = "hoi_18mbs"
+            maxWidth = 500
+            maxHeight = 0
+            format = CENTER
+        }
+
+         instantTextBoxType = {
+            name = "version_3"
+            position = { x = 125 y = 145 }
+            text = "version_3"
+            font = "hoi_18mbs"
+            maxWidth = 500
+            maxHeight = 0
+            format = CENTER
+        }
+
+        instantTextBoxType = {
+            name = "fish_3"
+            position = { x = 125 y = 275 }
+            text = "fish_3"
+            font = "hoi_18mbs"
+            maxWidth = 500
+            maxHeight = 0
+            format = CENTER
+        }
+    }
+
+    containerWindowType = {
+        name = "credits_gui"
+        position = { x = 0 y = 0 }
+        size = { width = 800 height = 600 }
+        orientation = CENTER
+        origo = CENTER
+        moveable = yes
+        fade_type = accelerated
+        clipping = yes
+        fade_time = 10000
+
+
+        background = {
+            name = "background"
+            spriteType = "GFX_scripted_gui_credits_background"
+        }
+
+        containerWindowType = {
+            name = "container_4"
+            position = { x = 115 y = 100 }
+            size = { width = 420 height = 160 }
+        }
+
+        buttonType = {
+            name = "interface_4"
+            position = { x = 7 y = 378 }
+            spriteType = "GFX_scripted_gui_interface_button"
+            clicksound = click_default
+        }
+
+        buttonType = {
+            name = "country_4"
+            position = { x = 127 y = 378 }
+            spriteType = "GFX_scripted_gui_country_button"
+            clicksound = click_default
+        }
+
+        buttonType = {
+           name = "must_read_4"
+           position = { x = 247 y = 378 }
+           spriteType = "GFX_scripted_gui_must_read_button"
+           clicksound = click_default
+        }
+
+        buttonType = {
+            name = "credit_4"
+            position = { x = 367 y = 378 }
+            spriteType = "GFX_scripted_gui_credits_button"
+            clicksound = click_default
+        }
+
+
+
+        buttonType = {
+            name = "exit_4"
+            position = { x = 0 y = 0 }
+            spriteType = "GFX_scripted_gui_exit_button"
+            clicksound = click_default
+        }
+
+        instantTextBoxType = {
+            name = "information_4"
+            position = { x = 275 y = 50 }
+            text = "information_4"
+            font = "hoi_72"
+            maxWidth = 200
+            maxHeight = 0
+            format = CENTER
+        }
+    }
+
+    containerWindowType = {
+        name = "open_gui"
+        position = { x = -330 y = -485 }
+        size = { width = 37 height = 37 }
+        orientation = CENTER
+        origo = CENTER
+        fade_type = accelerated
+        clipping = yes
+
+
+        background = {
+            name = "background"
+            spriteType = ""
+        }
+
+        containerWindowType = {
+            name = "container_gui"
+            position = { x = 0 y = 0 }
+            size = { width = 37 height = 37 }
+        }
+
+        buttonType = {
+            name = "open_gui"
+            position = { x = 0 y = 0 }
+            spriteType = "GFX_scripted_gui_open_gui"
+            clicksound = click_default
+        }
+    }
+}

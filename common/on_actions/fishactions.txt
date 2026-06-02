@@ -1,0 +1,10 @@
+on_actions = {
+	on_startup = {
+		effect = {
+			every_country = {
+				limit = { is_ai = no }
+				set_global_flag = show_my_custom_gui
+			}
+		}
+	}
+}

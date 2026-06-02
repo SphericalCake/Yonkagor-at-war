@@ -1,0 +1,244 @@
+scripted_gui = {
+    my_custom_gui = {
+        context_type = player_context
+        window_name = "my_custom_gui"
+
+        visible = {
+            has_global_flag = show_my_custom_gui
+        }
+
+        effects = {
+            interface_click = {
+                log = "Clicked interface"
+            }
+            credit_click = {
+                clr_global_flag = show_my_custom_gui
+                set_global_flag = show_my_credits_gui
+                log = "Clicked credit"
+            }
+            country_click = {
+                set_global_flag = show_my_country_gui
+                clr_global_flag = show_my_custom_gui
+                log = "Clicked credit"
+            }
+            must_read_click = {
+                clr_global_flag = show_my_custom_gui
+                set_global_flag = show_my_mustread_gui
+                log = "Clicked must_read"
+            }
+            exit_click = {
+                clr_global_flag = show_my_custom_gui
+                clr_global_flag = show_my_country_gui
+                clr_global_flag = show_my_credits_gui
+                clr_global_flag = show_my_mustread_gui
+                log = "Clicked exit"
+            }
+        }
+
+        triggers = {
+            interface_click_enabled = {
+                always = yes
+            }
+            credit_click_enabled = {
+                always = yes
+            }
+            country_click_enabled = {
+                always = yes
+            }
+            must_read_click_enabled = {
+                always = yes
+            }
+            exit_click_enabled = {
+                always = yes
+            }
+        }
+    }
+
+    country_gui = {
+        context_type = player_context
+        window_name = "country_gui"
+
+        visible = {
+            has_global_flag = show_my_country_gui
+        }
+
+        effects = {
+            interface_2_click = {
+                clr_global_flag = show_my_country_gui
+                set_global_flag = show_my_custom_gui
+                log = "Clicked interface"
+            }
+            credit_2_click = {
+                clr_global_flag = show_my_country_gui
+                set_global_flag = show_my_credits_gui
+                log = "Clicked credit"
+            }
+            country_2_click = {
+                log = "Clicked credit"
+            }
+            must_read_2_click = {
+                clr_global_flag = show_my_country_gui
+                set_global_flag = show_my_mustread_gui
+                log = "Clicked must_read"
+            }
+            exit_2_click = {
+                clr_global_flag = show_my_custom_gui
+                clr_global_flag = show_my_country_gui
+                clr_global_flag = show_my_credits_gui
+                clr_global_flag = show_my_mustread_gui
+                log = "Clicked exit"
+            }
+        }
+
+        triggers = {
+            interface_2_click_enabled = {
+                always = yes
+            }
+            credit_2_click_enabled = {
+                always = yes
+            }
+            country_2_click_enabled = {
+                always = yes
+            }
+            must_read_2_click_enabled = {
+                always = yes
+            }
+            exit_2_click_enabled = {
+                always = yes
+            }
+        }
+    }
+    mustread_gui = {
+        context_type = player_context
+        window_name = "mustread_gui"
+
+        visible = {
+            has_global_flag = show_my_mustread_gui
+        }
+
+        effects = {
+            interface_3_click = {
+                clr_global_flag = show_my_mustread_gui
+                set_global_flag = show_my_custom_gui
+                log = "Clicked interface"
+            }
+            credit_3_click = {
+                clr_global_flag = show_my_mustread_gui
+                set_global_flag = show_my_credits_gui
+                log = "Clicked credit"
+            }
+            country_3_click = {
+                clr_global_flag = show_my_mustread_gui
+                set_global_flag = show_my_country_gui
+                log = "Clicked credit"
+            }
+            must_read_3_click = {
+                # Add effect here
+                log = "Clicked must_read"
+            }
+            exit_3_click = {
+                clr_global_flag = show_my_custom_gui
+                clr_global_flag = show_my_country_gui
+                clr_global_flag = show_my_credits_gui
+                clr_global_flag = show_my_mustread_gui
+                log = "Clicked exit"
+            }
+        }
+
+        triggers = {
+            interface_3_click_enabled = {
+                always = yes
+            }
+            credit_3_click_enabled = {
+                always = yes
+            }
+            country_3_click_enabled = {
+                always = yes
+            }
+            must_read_3_click_enabled = {
+                always = yes
+            }
+            exit_3_click_enabled = {
+                always = yes
+            }
+        }
+    }
+
+    credits_gui = {
+        context_type = player_context
+        window_name = "credits_gui"
+
+        visible = {
+            has_global_flag = show_my_credits_gui
+        }
+
+        effects = {
+            interface_4_click = {
+                clr_global_flag = show_my_credits_gui
+                set_global_flag = show_my_custom_gui
+                log = "Clicked interface"
+            }
+            credit_4_click = {
+                # Add effect here
+                log = "Clicked credit"
+            }
+            country_4_click = {
+                clr_global_flag = show_my_credits_gui
+                set_global_flag = show_my_country_gui
+                log = "Clicked credit"
+            }
+            must_read_4_click = {
+                clr_global_flag = show_my_credits_gui
+                set_global_flag = show_my_mustread_gui
+                log = "Clicked must_read"
+            }
+            exit_4_click = {
+                clr_global_flag = show_my_custom_gui
+                clr_global_flag = show_my_country_gui
+                clr_global_flag = show_my_credits_gui
+                clr_global_flag = show_my_mustread_gui
+                log = "Clicked exit"
+            }
+        }
+
+        triggers = {
+            interface_4_click_enabled = {
+                always = yes
+            }
+            credit_4_click_enabled = {
+                always = yes
+            }
+            country_4_click_enabled = {
+                always = yes
+            }
+            must_read_4_click_enabled = {
+                always = yes
+            }
+            exit_4_click_enabled = {
+                always = yes
+            }
+        }
+    }
+
+    open_gui = {
+        context_type = player_context
+        window_name = "open_gui"
+
+        visible = {
+            always = yes
+        }
+
+        effects = {
+           open_gui_click = {
+                set_global_flag = show_my_custom_gui
+                log = "Clicked log"
+            }
+        }
+
+        triggers = {
+            open_gui_click_enabled = {
+                always = yes
+            }
+        }
+    }
+}
