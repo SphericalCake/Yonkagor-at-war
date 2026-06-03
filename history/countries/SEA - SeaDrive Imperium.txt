@@ -1,0 +1,39 @@
+﻿capital = 355
+
+
+# Starting tech
+set_technology = {
+		infantry_weapons = 1
+	    infantry_weapons1 = 1
+		infantry_weapons2 = 1
+	    tech_recon = 1
+	    tech_support = 1		
+	    tech_engineers = 1
+	    tech_trucks = 1
+	    interwar_antiair = 1
+	    basic_train = 1
+		landing_craft = 1
+		tech_recon = 1
+     	gw_artillery = 1
+        tech_mountaineers = 1
+        motorised_infantry = 1
+        synth_oil_experiments = 1
+}
+
+
+set_convoys = 498
+
+
+set_politics = {
+	ruling_party = fascism
+	last_election = "1934.4.6"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+set_popularities = {
+	democratic = 2
+	fascism = 95
+	communism = 1
+	neutrality = 2
+}
