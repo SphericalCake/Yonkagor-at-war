@@ -1,0 +1,40 @@
+﻿capital = 282
+
+
+# Starting tech
+set_technology = {
+	    tech_recon = 1
+	    tech_support = 1		
+	    tech_engineers = 1
+	    tech_trucks = 1
+	    interwar_antiair = 1
+	    basic_train = 1
+		landing_craft = 1
+		tech_recon = 1
+     	gw_artillery = 1
+        tech_mountaineers = 1
+        motorised_infantry = 1
+        synth_oil_experiments = 1
+		infantry_weapons = 1
+	    infantry_weapons1 = 1
+		infantry_weapons2 = 1
+}
+
+set_convoys = 600
+
+# recruit_character = TSH_tetra
+
+
+set_politics = {
+	ruling_party = neutrality
+	last_election = "1934.4.6"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+set_popularities = {
+	democratic = 29
+	fascism = 6
+	communism = 10
+	neutrality = 55
+}
