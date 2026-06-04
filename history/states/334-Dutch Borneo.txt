@@ -6,11 +6,11 @@ state = {
 
 	resources = {
 		rubber = 75 # was: 138
-		oil = 5 # was: 10
-		coal = 2 #initial distribution
+		oil = 32 # was: 10
+		coal = 34 #initial distribution
 	}
 	
-	state_category = rural
+	state_category = city
 
 	history = {
 
@@ -20,10 +20,11 @@ state = {
 		victory_points = {
 			10237 1 # Balikpapan
 		}
-	set_demilitarized_zone = yes
 
 		buildings = {
-			infrastructure = 1
+			infrastructure = 4
+			industrial_complex = 1
+			air_base = 1
 
 			10237 = {
 				naval_base = 3
@@ -49,5 +50,5 @@ state = {
 		1225 1252 1304 1316 1404 1416 4236 4279 4323 4409 7227 7231 7296 7299 7355 7415 10138 10178 10181 10237 10266 10282 10310 10325 12110 12129 12196 12225 12243 12252 12280 12955 13298
 	}
 
-	local_supplies = 0.0 
+	local_supplies = 5.0 
 }

@@ -1,9 +1,11 @@
 #reload countrycolors
 
 SEA = {
-	color = rgb { 20 40 80 }
-	color_ui = rgb { 20 40 80 }
+	color = rgb { 70 40 40 }
+	color_ui = rgb { 70 40 40 }
 }
+
+
 
 GER = {
 	color = HSV { 0.1 0.15 0.4 }

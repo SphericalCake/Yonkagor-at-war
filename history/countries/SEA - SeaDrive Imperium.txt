@@ -20,8 +20,10 @@ set_technology = {
         synth_oil_experiments = 1
 }
 
+recruit_character = SEA_seadrive
 
 set_convoys = 498
+
 
 
 set_politics = {

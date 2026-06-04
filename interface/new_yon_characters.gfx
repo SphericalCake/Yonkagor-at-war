@@ -1,0 +1,7 @@
+spriteTypes = {
+
+	spriteType = {
+		name = "GFX_portrait_sea_seadrive_large"
+		texturefile = "gfx/leaders/SEA/portrait_sea_seadrive.dds"
+	}
+}

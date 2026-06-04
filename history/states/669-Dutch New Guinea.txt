@@ -3,13 +3,12 @@ state = {
 	name = "STATE_669"
 	manpower = 314300
 
-	state_category = pastoral
+	state_category = city
 
 	history = {
 
-		owner = ACH
+		owner = SEA
 		add_core_of = SEA
-		add_core_of = ACH
 		set_demilitarized_zone = yes
 
 		victory_points = {

@@ -1,0 +1,16 @@
+characters={
+	SEA_seadrive={
+		name= "Kaiser Seadrive"
+		portraits={
+			civilian={
+				large="GFX_portrait_sea_seadrive_large"
+			}
+		}
+		country_leader={
+			ideology = nazism
+			traits = { warmonger, autocratic_imperialist, ruthless,  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+}
