@@ -1,0 +1,19 @@
+spriteTypes = {	
+
+
+
+	spriteType = {
+		name = "GFX_idea_kaiser_seadrive_kaiser"
+		texturefile = "gfx/interface/ideas/kaiser_seadrive_kaiser.dds"
+	}		
+
+	spriteType = {
+		name = "GFX_idea_commie_seadrive_government"
+		texturefile = "gfx/interface/ideas/commie_seadrive_government.dds"
+	}		
+
+	spriteType = {
+		name = "GFX_idea_java_seadrive_massacre"
+		texturefile = "gfx/interface/ideas/java_seadrive_massacre.dds"
+	}		
+}

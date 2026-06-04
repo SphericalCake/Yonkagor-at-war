@@ -1,0 +1,85 @@
+ideas = {
+
+	country = {
+		seadrive_kaiser = {
+			picture = kaiser_seadrive_kaiser
+			
+			allowed = {
+				tag = SEA
+			}
+
+			available = {
+				original_tag = SEA
+			}
+
+			cancel = {
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+			
+			modifier = {
+				political_power_cost = 0.25
+				consumer_goods_factor = 0.15
+				conscription_factor = -0.5
+				join_faction_tension = 1
+				local_resources_factor = 0.20
+			}
+		}
+
+		seadrive_commie_government = {
+			picture = commie_seadrive_government
+			
+			allowed = {
+				tag = SEA
+			}
+
+			available = {
+				original_tag = SEA
+			}
+
+			cancel = {
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+			
+			modifier = {
+				political_power_cost = 0.25
+				consumer_goods_factor = 0.15
+				communism_drift = 0.05
+				surrender_limit = 1
+				stability_weekly_factor = -0.015
+				war_support_weekly_factor = -0.015
+			}
+		}
+		seadrive_java_massacre = {
+			picture = java_seadrive_massacre
+			
+			allowed = {
+				tag = SEA
+			}
+
+			available = {
+				original_tag = SEA
+			}
+
+			cancel = {
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+			
+			modifier = {
+				political_power_cost = 1
+				consumer_goods_factor = 0.20
+				stability_weekly_factor = -0.020
+				war_support_weekly_factor = -0.020
+				communism_drift = 0.05
+			}
+		}
+	}
+}
