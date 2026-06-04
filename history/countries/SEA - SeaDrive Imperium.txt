@@ -1,5 +1,10 @@
 ﻿capital = 335
 
+add_ideas = {
+		seadrive_kaiser
+		seadrive_commie_government
+		seadrive_java_massacre
+}
 
 # Starting tech
 set_technology = {

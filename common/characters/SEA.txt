@@ -1,6 +1,6 @@
 characters={
 	SEA_seadrive={
-		name= "Kaiser Seadrive"
+		name= kaiser_bigot
 		portraits={
 			civilian={
 				large="GFX_portrait_sea_seadrive_large"
@@ -8,7 +8,8 @@ characters={
 		}
 		country_leader={
 			ideology = nazism
-			traits = { warmonger, autocratic_imperialist, ruthless,  }
+			desc = KAISER_BIGOT_DESC
+			traits = { warmonger, autocratic_imperialist, kaiserin_of_the_people,  }
 			expire="1965.1.1.1"
 			id=-1
 		}
