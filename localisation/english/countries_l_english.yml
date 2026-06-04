@@ -11,7 +11,9 @@
  SEA_democratic_ADJ:0 "Seadrive"
  SEA_neutrality_ADJ:0 "Seadrive"
  SEA_communism_ADJ:0 "Seadrive"
-
+ TSH: "Tetra Shoganate"
+ TSH_DEF: "Tetra Shoganate"
+ TSH_ADJ: "Tetraian"
 
 
  GER_fascism:0 "German Reich"
