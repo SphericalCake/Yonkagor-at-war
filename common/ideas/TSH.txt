@@ -1,0 +1,25 @@
+ideas = {
+
+	country = {
+		TSH_world_of_corporations = {
+			picture = TSH_world_of_corporations
+
+			available = {
+				original_tag = TSH
+			}
+
+			cancel = {
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+			
+			modifier = {
+				political_power_cost = 0.1
+				local_resources_factor = 0.26
+				consumer_goods_factor = -0.15
+			}
+		}
+	}
+}

@@ -38,3 +38,4 @@ set_popularities = {
 	communism = 10
 	neutrality = 55
 }
+add_ideas = TSH_world_of_corporations
